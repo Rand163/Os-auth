@@ -1,0 +1,64 @@
+/* Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body{
+  font-family: 'Dubai-Regular', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* Utility Colors */
+.primary-color{
+  color: #3f3f3f;
+}
+.light-gray{
+  color: #b2b2b2;
+}
+.red{
+  color: #a71c24;
+}
+.white{
+  color:#fff;
+}
+
+.red-box{
+  background:#a71c24;
+  border: none;
+}
+.blue{
+  color: #0090ff;
+}
+
+/* Utility */
+.primary-header{
+  font-family: Dubai;
+  font-weight: 500;
+  font-size: 24px;
+  padding-top:30px;
+  padding-bottom:10px ;
+  text-align: center;
+}
+.primary-text{
+  font-family: Dubai;
+  font-weight: 500;
+  font-size: 18px;
+  padding-top:10px;
+  text-align: center;
+}
+
+.req::after{
+  color: #e32;
+  content: ' *';
+}
+
+/* Footer */
+/* footer{
+  margin:10px;
+} */
