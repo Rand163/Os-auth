@@ -3,7 +3,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body{
@@ -41,15 +41,15 @@ a{
   font-family: Dubai;
   font-weight: 500;
   font-size: 24px;
-  padding-top:30px;
-  padding-bottom:10px ;
+  padding-top:20px;
+  padding-bottom:5px ;
   text-align: center;
 }
 .primary-text{
   font-family: Dubai;
   font-weight: 500;
   font-size: 18px;
-  padding-top:10px;
+  padding-top:15px;
   text-align: center;
 }
 
@@ -59,6 +59,12 @@ a{
 }
 
 /* Footer */
-/* footer{
-  margin:10px;
-} */
+footer{
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  
+  }
