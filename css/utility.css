@@ -24,12 +24,11 @@ a{
 .red{
   color: #a71c24;
 }
-.white{
-  color:#fff;
-}
+
 
 .red-box{
   background:#a71c24;
+  color:#fff;
   border: none;
 }
 .blue{
